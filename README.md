@@ -1,6 +1,6 @@
 # Vike FullStack
 
-Vike fullstack app with React, Drizzle, LibSQL, and Tailwind CSS.
+Fullstack React app with Vike, Vite, Hono, Drizzle ORM, LibSQL, tRPC, nanostores, Tailwind CSS, and TypeScript.
 
 Generated with [Bati](https://batijs.dev) ([version 240](https://www.npmjs.com/package/create-bati/v/0.0.240)) using this command:
 
@@ -13,9 +13,9 @@ pnpm create bati --react --tailwindcss --trpc --hono --drizzle --plausible.io --
 - First, ensure all dependencies are installed using your preferred package manager.
 - Execute the commands below with your preferred package manager, e.g., for pnpm:
 ```bash
-pnpm drizzle:generate # a script that executes drizzle-kit generate.
-pnpm drizzle:migrate # a script that executes drizzle-kit migrate.
-pnpm drizzle:seed # a script that executes tsx ./database/seed.ts.
+pnpm db:generate # a script that executes drizzle-kit generate.
+pnpm db:migrate # a script that executes drizzle-kit migrate.
+pnpm db:seed # a script that executes tsx ./database/seed.ts.
 ```
 
 > [!NOTE]
